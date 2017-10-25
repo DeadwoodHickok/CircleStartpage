@@ -12,12 +12,13 @@
 		var div = document.getElementByClassName("sqr");
 		function expand(){
     			if(this.acount > 0){
-        		this.style.width = "225px";
-		        this.style.height = "225px";
+			this.style.borderRadius="115px";
+        		this.style.width = "230px";
+		        this.style.height = "230px";
 			div.style.lineHeight = "40px";
-		    }else{
-		        this.style.width = "225px";
-			this.style.height = "225px";
+		    }else{this.style.borderRadius="115px";
+        		this.style.width = "230px";
+		        this.style.height = "230px";
 			div.style.lineHeight = "40px";
 		    }
 		    if(cfg_bool[0]){
@@ -40,10 +41,9 @@
             <div id="cell">
                 <div class="sqr"> <span>My Pages</span>
                     <div class="content">
-                        <a href="http://www.lgfl.net/services/Pages/pupil-email.aspx">Email</a><br>
+                        <a href="https://idp3.lgfl.org.uk/idp/profile/SAML2/Redirect/SSO?execution=e2s1">Email</a><br>
                         <a href="http://www.suttongrammar.sutton.sch.uk/">SGS</a><br>
                         <a href="http://moodle.suttongrammar.sutton.sch.uk/">Moodle</a><br>
-                        <a href="https://files.tanuj.co/">SeaFile</a>
                     </div>
                 </div>
 		<br>
